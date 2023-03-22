@@ -1,7 +1,10 @@
-## Introduction to EXPRESS JS Part 2
+Import and Export a Boolean using Common JS Module Syntax
+=========================================================
 
-- Application Programming Interface(API)
-- Connecting SQLite Database
-- SQLite Command Line Tool
-- Third-Party Packages
-  - sqlite & sqlite3
+Create two files exportBoolean.js, importBoolean.js parallel to README.md file.
+
+Write a boolean with the value as true in the exportBoolean.js file and export it using the default export syntax.
+
+Import the boolean value in the importBoolean.js file.
+
+Use Common JS module syntax
