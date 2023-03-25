@@ -1,0 +1,26 @@
+//API 1 To get players list
+GET http://localhost:3001/players/
+###
+
+//API 2 To get specific player by id
+GET http://localhost:3001/players/2/
+###
+
+//API 3 To update a player
+PUT  http://localhost:3001/players/2/
+Content-Type: application/json
+
+{
+  "playerName": "Raju"
+}
+
+###
+
+//API 4 To get specific match by id
+GET http://localhost:3001/matches/2
+###
+
+
+//API 5 To get player matches 
+GET http://localhost:3001/players/2/matches
+###
