@@ -1,0 +1,51 @@
+//API 1 To get all states list
+
+GET HTTP://localhost:3001/states/
+###
+
+//API 2 To get a states with stateId
+
+GET HTTP://localhost:3001/states/8/
+###
+
+//API 3 To add a district
+
+POST HTTP://localhost:3001/districts/
+Content-Type: application/json
+
+{
+  "districtName": "Bagalkot",
+  "stateId": 3,
+  "cases": 2323,
+  "cured": 2000,
+  "active": 315,
+  "deaths": 8
+}
+
+###
+//API 4 To get a district with districtId
+
+GET HTTP://localhost:3001/districts/322/
+###
+
+//API 5 To delete a distict
+
+DELETE HTTP://localhost:3001/districts/7/
+
+###
+//API 6 To udate a district
+
+PUT HTTP://localhost:3001/districts/3/
+Content-Type: application/json
+
+{
+  "districtName": "Nadia",
+  "stateId": 3,
+  "cases": 9628,
+  "cured": 6524,
+  "active": 3000,
+  "deaths": 104
+}
+###
+//API 8 to get the state name using districtId
+GET http://localhost:3001/districts/23/details/
