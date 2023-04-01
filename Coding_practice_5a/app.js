@@ -9,6 +9,7 @@ app.use(express.json());
 
 const dbPath = path.join(__dirname, "moviesData.db");
 
+
 let db = null;
 
 const initializingDbAndServer = async () => {
